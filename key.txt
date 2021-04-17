@@ -3,3 +3,4 @@ API key nomics : 237055b3b7d6d4e3816f880583da8578
 
 https://api.nomics.com/v1/currencies/ticker?key=237055b3b7d6d4e3816f880583da8578&ids=BTC,ETH,DOGE&interval=1d,30d,365d
 BITCOIN ETHEREUM ET DOGECOIN 
+https://api.nomics.com/v1/currencies?key=237055b3b7d6d4e3816f880583da8578&ids=BTC&attributes=id,name,logo_url,description,reddit_url
