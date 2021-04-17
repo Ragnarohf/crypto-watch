@@ -16,7 +16,7 @@ export default function Layout({ children, page }) {
               Acceuil
             </button>
           </Link>
-          <Link href="/">
+          <Link href="/about">
             <button className="bg-blue-200 p-3 m-2 rounded-3xl hover:shadow-md border-2 border-blue-300">
               A propos
             </button>
@@ -43,6 +43,19 @@ export default function Layout({ children, page }) {
           className="rounded-3xl object-cover "
           quality={100}
         ></Image>
+        <ul className="pt-10 pb-4 flex justify-around">
+          <li>A propos</li>
+          <li>Qui sommes nous?</li>
+          <li>Ragna_dev 2021</li>
+        </ul>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          doloribus et quisquam recusandae deserunt. Magni eveniet qui, a
+          necessitatibus expedita est sunt dolorum voluptates totam. Nulla odit
+          dicta, debitis maiores reprehenderit est voluptates nesciunt, beatae
+          sapiente excepturi aspernatur expedita distinctio officiis similique?
+          Facilis error doloremque ipsam at sequi cumque tenetur.
+        </p>
       </footer>
     </div>
   );
